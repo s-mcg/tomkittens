@@ -5,6 +5,10 @@ A simple Bash script for installing any number of instances of Apache Tomcat.
 
 By default it is installing Tomcat 6.0.35. If you want to install a different version you'll have to modify the script.
 
+Easy download link:
+
+    wget https://raw.github.com/s-mcg/tomkittens/master/install-tomcats.sh
+
 Usage
 
 ./install-tomcats.sh {number of tomcat instances (required)} {start (optional)}
