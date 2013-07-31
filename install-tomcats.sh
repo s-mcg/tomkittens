@@ -17,7 +17,7 @@ then
   echo "tomcat .tar already exists, will not re-download"
 else
   echo "downloading tomcat 6 from mirror site"
-  wget http://www.globalish.com/am/tomcat/tomcat-6/v6.0.35/bin/apache-tomcat-6.0.35.tar.gz
+  wget http://apache.cs.utah.edu/tomcat/tomcat-6/v6.0.37/bin/apache-tomcat-6.0.37.tar.gz
 fi
 
 START_SCRIPT="#!/bin/sh\n"
